@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>UNO</title>
+    <link rel="icon" href="images/favicon-32x32.png">
+    <link href="css/bootstrap.css" rel='stylesheet' type='text/css'/>
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />	    
+	    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>
+ <script type="text/javascript">
+		jQuery(document).ready(function($) {
+			$(".scroll").click(function(event){		
+				event.preventDefault();
+				$('html,body').animate({scrollTop:$(this.hash).offset().top},1200);
+			});
+		});
+	</script>
+</head>
+<body>
+    <!-- Header -->
+<div class="w3-container w3-center head" style="padding-top: 90px; background-color: #ef664d; height: 200px;">
+    <h1 class="w3-margin w3-jumbo" style="font-family: 'Arvo', serif;">UNO for colorblinds</h1>
+</div>
+  
+  <!-- First Grid -->
+  <div class="w3-row-padding w3-padding-32 w3-container">
+    <div class="w3-content">
+      <div class="w3-twothird">
+        <h1>Project Information</h1>
+        <h5 class="w3-padding-32">
+            <ul style="list-style: none;">
+                <li>
+                    <strong style="font-size: large;">Course:</strong>
+                    <span style="font-size: larger;">Augmented Reality and Mobile App Development</span>
+                </li>
+                <li style="margin-top: 25px;">
+                    <strong style="font-size: large; margin-bottom: 5px;">Technologies:</strong>
+                    <ul>
+                        <li style="font-size: larger; list-style-type: none; margin-bottom: 5px;">Flutter</li>
+                        <li style="font-size: larger; list-style-type: none;">Wikitude AR</li>
+                    </ul>
+                </li>
+                <li style="margin-top: 25px;">
+                    <strong style="font-size: large;">Team:</strong>
+                    <ul>
+                        <li style="font-size: larger; list-style-type: none;">Warre Hofmans</li>
+                    </ul>
+                </li>
+            </ul>
+        </h5>
+      </div>
+  
+      <div class="w3-third w3-center">
+        <img src="images/ef1dc3f770b040c5abf6472ea1ac9c14.png" alt="Uno" style="width: 75%;">
+      </div>
+    </div>
+  </div>
+  
+  <!-- Second Grid -->
+  <div class=" w3-light-grey w3-container">
+    <div class="w3-content">
+      <div style="width: 100%;">
+        <h1 style="margin-top: 30px;">Short explenation</h1>
+        <p class="w3-text-grey" style="font-size: medium; margin-top: 40px;">During the first semester of the third year, I worked with Warre Hofmans for the <strong>Augmented Reality and Mobile App Development</strong> course to develop an application in <strong>Flutter</strong>, which uses <strong>Wikitude AR</strong>, to make the card game <strong>UNO</strong> accessible to <strong>colorblind people</strong>.</p>
+        <p class="w3-text-grey" style="font-size: medium; margin-top: 40px;">Uno is perhaps one of the most <strong>well-known board games</strong>. it is played by young and old, at cafes with the friends, ... Uno is <strong>strongly built on the colors</strong> of the cards. If someone cannot perceive these colors or experiences them differently due to a defect, they will not be able to participate in the game. People can help the person, but as a result the person will have to deal his cards. This, of course, takes away the excitement. With this project, we aimed to <strong>remove this</strong> group's <strong>limitation</strong>. 
+            This app will allow people to recognize the uno cards. The app will label the cards with their color. This way, the color of the card can be checked at any time.</p>
+        <p class="w3-text-grey" style="font-size: medium; margin-top: 40px; margin-bottom: 40px;">We created some features that were necessary for us to allow colorblind people to play the game with the same experience as anyone else. For example, it starts with <strong>detecting</strong> the color of the cards on the table, what follows is checking <strong>if your card is playable</strong> on the card on the table, the number is not a problem for the color blind, only the color card becomes a difficult task. With this application, a “play” button is provided when it is <strong>playable</strong>. Also, in the application you have your <strong>own card deck</strong>, where you can add your card when you get one added or when you start the game. You can also <strong>cancel</strong> the add process if you accidentally clicked the button. And finally, you can <strong>play the cards</strong> you have just added to your deck by clicking the button, they will also be removed from your own deck.</p>
+      </div>
+    </div>
+  </div>
+  <!-- Third Grid -->
+  <div style="display: flex; justify-content: center; align-items: center; margin: 50px; flex-direction: column;">
+    <h3 class="w3-text-grey" style="margin-bottom: 40px;">Here is a video, in which everything is demonstrated.</h3>
+    <iframe style="width: 60%; height: 500px;" src="https://www.youtube.com/embed/81ccQV4QrZg?si=HOK0BjjM55JtGvGu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  </div>
+  <div class="footer-section" id="contact" id="contact">
+    <div class="container"> 
+    <div class="contact-header">
+        <h3> Contacts </h3>
+            <p>Here you can find all my socials, don't hesitate to follow me! </p>
+    </div>
+    <div class="social-icon">
+        <a href="https://www.facebook.com/profile.php?id=100014192587929&locale=nl_NL" target="_blank" class="fa fa-facebook foot"></a>
+        <a href="https://x.com/KyanoPeeters" target="_blank" class="fa fa-twitter foot"></a>
+        <a href="https://be.linkedin.com/in/kyano-peeters-212b0b223" target="_blank" class="fa fa-linkedin foot"></a>
+        <a href="https://www.youtube.com/@kyanopeeters" target="_blank" class="fa fa-youtube foot"></a>
+        <a href="https://www.instagram.com/kyano_peeters/" target="_blank" class="fa fa-instagram foot"></a>
+    </div>
+    <div class="footer-bottom">
+
+            <p>&copy; 2024 Kyano Peeters</p>
+
+            </div>
+            <script type="text/javascript">
+                $(document).ready(function() {
+                    /*
+                    var defaults = {
+                          containerID: 'toTop', // fading element id
+                        containerHoverID: 'toTopHover', // fading element hover id
+                        scrollSpeed: 1200,
+                        easingType: 'linear' 
+                     };
+                    */
+                    
+                    $().UItoTop({ easingType: 'easeOutQuart' });
+                    
+                });
+            </script>
+        <a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+</div>
+
+</div>
+<style>
+    .fa {
+          padding-top: 10px;
+          font-size: 30px;
+          width: 50px;
+        height: 50px;
+          text-align: center;
+          text-decoration: none;
+        border-radius: 50%;
+        }
+
+    .fa:hover {
+        opacity: 0.7;
+    }
+    .fa-facebook {
+background: #3B5998;
+color: white;
+}
+
+.fa-twitter {
+background: #55ACEE;
+color: white;
+}
+.fa-linkedin {
+background: #007bb5;
+color: white;
+}
+
+.fa-youtube {
+background: #bb0000;
+color: white;
+}
+
+.fa-instagram {
+background: #125688;
+color: white;
+}
+</style>
+</body>
+</html>

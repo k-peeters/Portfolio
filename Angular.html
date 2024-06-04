@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Project Angular</title>
+    <link rel="icon" href="images/favicon-32x32.png">
+    <link href="css/bootstrap.css" rel='stylesheet' type='text/css'/>
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />	    
+	    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>
+ <script type="text/javascript">
+		jQuery(document).ready(function($) {
+			$(".scroll").click(function(event){		
+				event.preventDefault();
+				$('html,body').animate({scrollTop:$(this.hash).offset().top},1200);
+			});
+		});
+	</script>
+</head>
+<body>
+    <!-- Header -->
+<div class="w3-container w3-center head" style="padding-top: 40px; background-color: #ef664d; height: 200px;">
+    <h1 class="w3-margin w3-jumbo" style="font-family: 'Arvo', serif;">Project Angular</h1>
+</div>
+  
+  <!-- First Grid -->
+  <div class="w3-row-padding w3-padding-32 w3-container">
+    <div class="w3-content">
+      <div class="w3-twothird">
+        <h1>Project Information</h1>
+        <h5 class="w3-padding-32">
+            <ul style="list-style: none;">
+                <li>
+                    <strong style="font-size: large;">Course:</strong>
+                    <span style="font-size: larger;">Angular</span>
+                </li>
+                <li style="margin-top: 25px;">
+                    <strong style="font-size: large; margin-bottom: 5px;">Technologies:</strong>
+                    <ul>
+                        <li style="font-size: larger; list-style-type: none; margin-bottom: 5px;">Angular</li>
+                        <li style="font-size: larger; list-style-type: none; margin-bottom: 5px;">C# .Net</li>
+                        <li style="font-size: larger; list-style-type: none; margin-bottom: 5px;">Vercel</li>
+                        <li style="font-size: larger; list-style-type: none; margin-bottom: 5px;">Azure</li>
+                    </ul>
+                </li>
+                <li style="margin-top: 25px;">
+                    <strong style="font-size: large; margin-bottom: 5px;">Team:</strong>
+                    <ul>
+                        <li style="font-size: larger; list-style-type: none; margin-bottom: 5px;">Finn De Peuter</li>
+                        <li style="font-size: larger; list-style-type: none; margin-bottom: 5px;">Kyara Van Genechten</li>
+                        <li style="font-size: larger; list-style-type: none; margin-bottom: 5px">Sam Van Den Bogerd</li>
+                        <li style="font-size: larger; list-style-type: none; margin-bottom: 5px;">Eva Burghoorn</li>
+                    </ul>
+                </li>
+                <li style="margin-top: 25px;">
+                    <ul>
+                        <strong style="font-size: large; margin-bottom: 5px;">Soft Skills:</strong>
+                        <li style="font-size: larger; list-style-type: none; margin-bottom: 5px;">Planning</li>
+                        <li style="font-size: larger; list-style-type: none; margin-bottom: 5px;">Collaborate</li>
+                        <li style="font-size: larger; list-style-type: none; margin-bottom: 5px;">Communicate</li>
+                    </ul>
+                </li>
+            </ul>
+        </h5>
+      </div>
+  
+      <div class="w3-third w3-center">
+        <img src="images/travel.png" alt="Uno" style="width: 100%;">
+      </div>
+    </div>
+  </div>
+  
+  <!-- Second Grid -->
+  <div class=" w3-light-grey w3-container">
+    <div class="w3-content">
+      <div style="width: 100%;">
+        <h1 style="margin-top: 30px;">Short explenation</h1>
+        <p class="w3-text-grey" style="font-size: medium; margin-top: 40px;">During the first semester of the third year, I worked together with 4 other students for the course Angular to develop an application in <strong>Angular</strong>, this application had the purpose to <strong>plan a multi-day trip</strong> in an intuitive user-friendly way.</p>
+        <p class="w3-text-grey" style="font-size: medium; margin-top: 40px; margin-bottom: 40px;">The app aims to <strong>revolutionize</strong> the way people plan and share their trips. By providing an intuitive and <strong>user-friendly</strong> interface, users can easily <strong>create and customize</strong> their own multi-day trips, choosing from various types such as hiking, hotel, or blended itineraries. Each trip is initially private, visible only to the creator, but users can opt to make it public, allowing others to discover and <strong>gain inspiration</strong> from their travel ideas. Non-registered users are greeted with a visually appealing homepage that encourages them to register and create their own trip. Once registered, users can <strong>add new trips</strong>, edit or delete existing ones, manage activities such as autoroutes, flights, museums, hotels, and restaurants, and <strong>share their trips</strong> with friends and family via a public link or email. Additionally, users can search for other trips using keywords such as destination, activity, or type of trip, making it easy to find inspiration for their next adventure.</p>
+        <p class="w3-text-grey" style="font-size: medium; margin-top: 40px; margin-bottom: 40px;">In this application I mainly created the <strong>2 trip pages</strong>, both public and private trips, in this I <strong>added the data</strong> I got from the API. I also did the <strong>UI/UX</strong> for the whole application, we got <strong>compliments</strong> for this during our presentation, because it is not too complicated and rather simplistic. I also took care of the <strong>hosting</strong>, the hosting of the frontend was done through <strong>Vercel</strong> and the Backend was hosted through <strong>Azure</strong>.</p>
+      </div>
+    </div>
+  </div>
+  <!-- Third Grid -->
+  <!-- Automatic Slideshow Images -->
+  <div style="display: flex; justify-content: center; align-items: center; margin: 50px; flex-direction: column;">
+    <h3 class="w3-text-grey" style="margin-bottom: 40px;">Here are some screenshots to give you a better idea</h3>
+    <div>
+      <div class="mySlides w3-display-container w3-center">
+          <img src="images/homepageAngular.png" style="width:75%">
+        </div>
+        <div class="mySlides w3-display-container w3-center">
+          <img src="images/maketrip.png" style="width:77%">
+        </div>
+        <div class="mySlides w3-display-container w3-center">
+          <img src="images/overzicht.png" style="width:100%">
+        </div>
+    </div>
+</div>
+  <div class="footer-section" id="contact" id="contact">
+    <div class="container"> 
+    <div class="contact-header">
+        <h3> Contacts </h3>
+            <p>Here you can find all my socials, don't hesitate to follow me! </p>
+    </div>
+    <div class="social-icon">
+        <a href="https://www.facebook.com/profile.php?id=100014192587929&locale=nl_NL" class="fa fa-facebook foot" target="_blank"></a>
+        <a href="https://x.com/KyanoPeeters" class="fa fa-twitter foot" target="_blank"></a>
+        <a href="https://be.linkedin.com/in/kyano-peeters-212b0b223" class="fa fa-linkedin foot" target="_blank"></a>
+        <a href="https://www.youtube.com/@kyanopeeters" class="fa fa-youtube foot" target="_blank"></a>
+        <a href="https://www.instagram.com/kyano_peeters/" target="_blank" class="fa fa-instagram foot"></a>
+    </div>
+    <div class="footer-bottom">
+
+            <p>&copy; 2024 Kyano Peeters</p>
+
+            </div>
+            <script type="text/javascript">
+                $(document).ready(function() {
+                    /*
+                    var defaults = {
+                          containerID: 'toTop', // fading element id
+                        containerHoverID: 'toTopHover', // fading element hover id
+                        scrollSpeed: 1200,
+                        easingType: 'linear' 
+                     };
+                    */
+                    
+                    $().UItoTop({ easingType: 'easeOutQuart' });
+                    
+                });
+            </script>
+        <a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+</div>
+
+</div>
+<script>
+    // Automatic Slideshow - change image every 4 seconds
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 4000);    
+}
+
+  </script>
+  <style>
+    .fa {
+          padding-top: 10px;
+          font-size: 30px;
+          width: 50px;
+        height: 50px;
+          text-align: center;
+          text-decoration: none;
+        border-radius: 50%;
+        }
+
+    .fa:hover {
+        opacity: 0.7;
+    }
+    .fa-facebook {
+background: #3B5998;
+color: white;
+}
+
+.fa-twitter {
+background: #55ACEE;
+color: white;
+}
+.fa-linkedin {
+background: #007bb5;
+color: white;
+}
+
+.fa-youtube {
+background: #bb0000;
+color: white;
+}
+
+.fa-instagram {
+background: #125688;
+color: white;
+}
+</style>
+</body>
+</html>
